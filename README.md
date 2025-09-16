@@ -4,7 +4,7 @@ Class 7: EC2 Basics
 
 Task: Build an Amazon Linux EC2 with a bootstrap.
 
-Template: https://github.com/kirk-devsecops/bmc5/blob/main/ec2scrpit
+Template: https://github.com/kirkalton-class7/bmc5/blob/main/ec2scrpit
 
 Steps
 1. Create NEW security group. DO NOT USE DEFAULT!
