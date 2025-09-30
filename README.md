@@ -9,7 +9,11 @@ Template: https://github.com/kirkalton-class7/bmc5/blob/main/ec2scrpit
 Steps
 1. Navigate to EC2 in console.
 2. Create NEW EC2 security group. DO NOT USE DEFAULT SG!
-3. Click "Launch an instance" then name and tag the instance
+3. SG - Inbound Rules
+		1. HTTP, Port 80, Source: Anywhere IPv4 (0.0.0.0/0)
+		2. SSH, Port 22, Source: Anywhere IPv4 (0.0.0.0/0)
+4. DO NOT TOUCH OUTBUND RULES (IF YOU DO, YOU'RE WRONG!)
+3. After creating security group click "Launch an instance" then name and tag the instance
 4. Select Amazon Linux 2023 AMI
 5. Select t2.nano instance type
 6. Create and download new keypair
